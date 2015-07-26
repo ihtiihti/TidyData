@@ -8,11 +8,11 @@ The repository consists of three files:
 * run_analysis.R -- the R file that contains all source
 
 To generate your tidy data, go through these steps:
-# Download and unpack raw data [Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-# In *run_analysis.R* file change the path to
-#* data.set.directory -- the full path to the directory where raw data were unpacked in in the previous step;
-#* tidy.data.file -- the name of the file where tidy data have to be stored.
-# Run *run_analysis.R*
-# After sucessfull run of the script you shall find a text file with tidy data.
+0. Download and unpack raw data [Data Set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+1. In *run_analysis.R* file change the path to
+	1. *data.set.directory* -- the full path to the directory where raw data were unpacked in in the previous step;
+	2. *tidy.data.file* -- the name of the file where tidy data have to be stored.
+2. Run *run_analysis.R*
+3. After sucessfull run of the script you shall find a text file with tidy data.
 
 Enjoy!
